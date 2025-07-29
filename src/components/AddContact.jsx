@@ -24,10 +24,13 @@ function AddContact({ editData, setEditData }) {
   };
 
   return (
-    <div className="  p-5">
+    <div className="  p-4">
+      <h1 className="text-center font-bold text-md text-blue-600">
+        CONTACT-MANAGER-APP
+      </h1>
       <div className="flex flex-col md:flex-row justify-center gap-3 items-center">
-        <div className="w-full md:w-1/2 h-1/3">
-          <img src={image} alt="" className="object-cover" />
+        <div className="w-full md:w-1/2 h-1/4">
+          <img src={image} alt="" className="object-cover w-full h-full" />
         </div>
         <div className=" w-full md:w-2/5">
           <form onSubmit={handleSubmit} className="flex flex-col ">
