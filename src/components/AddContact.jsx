@@ -25,7 +25,7 @@ function AddContact({ editData, setEditData }) {
 
   return (
     <div className="  p-4">
-      <h1 className="text-center font-bold text-md text-blue-600">
+      <h1 className="text-center font-bold text-xs md:text-lg text-blue-600">
         CONTACT-MANAGER-APP
       </h1>
       <div className="flex flex-col md:flex-row justify-center gap-3 items-center">
